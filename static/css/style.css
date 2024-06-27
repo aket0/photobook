@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    
+}
+header > h1 {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    width: 80%;
+    color: #FFD700;
+    font-size: 35px;
+    
+  
+    
+}
+#container{
+    display: flex;
+    
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+#row{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+#navbarNav{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    margin-top: 84px;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+.container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbarNav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100vw;
+    padding: 0;
+    
+    justify-content: space-evenly;
+}
+.nav-item{
+    width: 50vw;
+    text-align: center;
+    border: 1px solid #FFD700;
+    border-left: none;
+   
+    
+}
+.nav-item > a{
+    color: black;
+}
+.navbar-toggler{
+    align-self: self-end;
+    border: none;
+}
+.navbar-toggler::after{
+    align-self: self-end;
+    border: none;
+}
+.navbar-toggler-icon{
+    color: #FFD700;
+    border: none;
+}
+#btn{
+    border: none;
+}
+button:focus:not(:focus-visible) {
+    outline: none;
+  }
+i{
+    font-size: 20px;
+    align-self: flex-end;
+    
+}  
